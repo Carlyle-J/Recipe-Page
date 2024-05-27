@@ -1,0 +1,119 @@
+/*General styles*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    margin: 6em auto;
+    max-width: 55%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 2.5em;
+    font-family: Outfit, Arial, Sans-serif;
+    color:hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.preparationTimeContainer{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 0.5em 2em;
+    margin-top: 2em;
+}
+
+hr {
+    background-color: hsl(30, 18%, 87%);
+    height: 1px;
+    border:none;
+    margin: 2em auto;
+}
+
+.darkerColor {
+    font-weight:700;
+}
+
+/*Heading styles*/
+.prepHeading{
+    color: hsl(332, 51%, 32%);
+}
+
+.heading{
+    font-family: Young serif, Cambria, Times;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.omeletteHeading{
+    color: hsl(24, 5%, 18%);
+}
+
+/*List Styles*/
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight:700;
+    font-family: outfit, arial, sans-serif;
+}
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 0.8rem;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.preparationTimeContainer ul{
+    list-style-type: disc;
+}
+
+li {
+    padding-left: 1em;
+    margin-left: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+ul, ol{
+    margin-left: 0;
+    padding-left:0;
+}
+
+/*Table styles*/
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+tr td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.7em 2em;
+}
+
+tr.no-bottom-border td{
+    border-bottom: none;
+}
+
+.measurements {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+/*Attribution styles*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
